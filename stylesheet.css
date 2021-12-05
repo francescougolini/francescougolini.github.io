@@ -1,0 +1,139 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	font-size: 0.9em;
+	letter-spacing: 1px;
+}
+
+#content {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: #E44C4C;
+}
+
+#top-content {
+	margin: auto;
+	padding: 1.5em 0em 0.5em 0em;
+	background-color: #E44C4C;
+}
+
+#header-img {
+	margin: 0em 0em 2em 0em;
+}
+
+#header-img img {
+	width: 100px; 
+	border-radius: 40px; 
+	border:1px solid #CA4747;
+}
+
+h1 {
+	margin: 0px;
+}
+
+#title {
+	color: #ffffff;
+	font-size: 3.5em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	text-align: center;
+}
+
+#title a:link, #title a:visited  {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav {
+	margin: 3em auto 0.9em auto;
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+nav p {
+	padding:0.6em 0em 0.6em 0em;
+}
+
+nav a {
+	outline:0;
+	padding: 0em 0em 0.5em 0em;
+	margin: 0.2em 0.8em 0.2em 1.2em;
+}
+
+nav a:link, nav a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+	border-bottom: 1px solid #ffffff;
+}
+nav a:hover {
+	color: #ffffff;
+	font-weight: bold;
+	border-bottom: 2px solid #ffffff;
+}
+
+main {
+	width: 100%;
+	background-color: #ffffff;
+}
+
+div#main {
+	margin: 0 0 1.5em 0;
+	padding: 0.5em 1em 0.5em 1em;
+}
+
+#about-me {
+	margin: auto;
+	max-width: 70%;
+	font-size: 1.1em;
+}
+
+footer {	
+	margin-bottom: 0px;
+	border-top: 1px solid #CA4747;
+	border-bottom: 1px solid #CA4747;
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
+	background-color: #FAFAFA;
+	text-transform: uppercase;
+	font-size: 0.9em;
+}
+
+#social {
+	margin: 0.9em auto 1em auto;
+	text-align: center;
+}
+
+p.social-refs { 
+	display: inline-block;
+	margin: 0 0.7em 0 0.7em;
+}
+
+p.social-refs.link a {
+	border-bottom: 1px solid #E44C4C;
+}
+
+p.social-refs a {
+	display:block; 
+	margin: 0.4em auto;
+	padding: 0.3em 0em 0.3em 0em;
+}
+
+p.social-refs.link a:link, p.social-refs.link a:visited { 
+	text-decoration: none;
+	color: #333333;
+}
+
+p.social-refs.link a:hover { 
+	text-decoration: none;
+	color: #E44C4C;
+	font-weight: bold;
+	border-bottom: 2px solid #E44C4C;
+}
