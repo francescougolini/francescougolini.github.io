@@ -134,6 +134,5 @@ p.social-refs.link a:link, p.social-refs.link a:visited {
 p.social-refs.link a:hover { 
 	text-decoration: none;
 	color: #E44C4C;
-	font-weight: bold;
-	border-bottom: 2px solid #EE3D38;
+	border-bottom: 1px solid #CA4747;
 }
