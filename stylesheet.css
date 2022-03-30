@@ -114,6 +114,10 @@ p.social-refs {
 	margin: 0 0.7em 0 0.7em;
 }
 
+p.social-refs.link a {
+	border-bottom: 1px solid #EE3D38;
+}
+
 p.social-refs a {
 	display:block; 
 	margin: 0.4em auto;
@@ -123,6 +127,7 @@ p.social-refs a {
 p.social-refs.link a:link, p.social-refs.link a:visited { 
 	text-decoration: none;
 	color: #333333;
+	border-bottom: 1px solid #333333;
 }
 
 p.social-refs.link a:hover { 
