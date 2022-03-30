@@ -71,12 +71,11 @@ nav a {
 nav a:link, nav a:visited {
 	color: #FFFFFF;
 	text-decoration: none;
-	border-bottom: 1px solid #ffffff;
 }
 nav a:hover {
 	color: #ffffff;
 	font-weight: bold;
-	border-bottom: 2px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
 }
 
 main {
@@ -129,7 +128,7 @@ p.social-refs a {
 p.social-refs.link a:link, p.social-refs.link a:visited { 
 	text-decoration: none;
 	color: #333333;
-	border-bottom: 1px solid #E44C4C;
+	border-bottom: 1px solid #333333;
 }
 
 p.social-refs.link a:hover { 
