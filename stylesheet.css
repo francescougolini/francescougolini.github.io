@@ -71,12 +71,10 @@ nav a {
 nav a:link, nav a:visited {
 	color: #FFFFFF;
 	text-decoration: none;
-	border-bottom: 1px solid #ffffff;
 }
 nav a:hover {
 	color: #ffffff;
-	font-weight: bold;
-	border-bottom: 2px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
 }
 
 main {
