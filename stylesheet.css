@@ -113,9 +113,11 @@ footer {
 p.social-refs { 
 	display: inline-block;
 	margin: 0 0.7em 0 0.7em;
+	color: #FFFFFF;
 }
 
 p.social-refs.link a {
+	color: #FFFFFF;
 	border-bottom: 1px solid #FFFFFF;
 }
 
