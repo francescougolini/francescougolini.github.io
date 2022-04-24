@@ -16,7 +16,8 @@ body {
 	min-height: 100vh;
 	background-color: #FAFAFA;
 	background-image: url(' background_CC_BY-ND-NC-SA.jpg ');
-	background-size: 100% 100%;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
 }
 
 #top-content {
