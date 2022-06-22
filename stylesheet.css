@@ -31,9 +31,8 @@ body {
 
 #header-img img {
 	width: 120px; 
-	background-color: #f5f5f5;
 	border-radius: 60px; 
-	border:1px solid #E4E3E2;
+	border-bottom:1px solid #E4E3E2;
 }
 
 h1 {
