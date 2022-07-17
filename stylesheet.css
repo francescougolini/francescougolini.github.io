@@ -30,9 +30,9 @@ body {
 }
 
 #header-img img {
-	border-radius: 60px; 
+	border-radius: 50px; 
 	border-bottom: 1px solid #cfc1b4;
-	box-shadow: #d7d6d6 0px 0px 5px
+	box-shadow: #d7d6d6 0px 0px 5px;
 	object-position: left top;
 	width: 120px; 
 }
