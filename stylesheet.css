@@ -30,7 +30,7 @@ body {
 }
 
 #header-img img {
-	border-radius: 7px; 
+	border-radius: 50px; 
 	border-bottom: 1px solid #cfc1b4;
 	object-position: left top;
 	width: 120px; 
