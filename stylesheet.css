@@ -1,23 +1,22 @@
 body {
 	font-family: Helvetica, Arial, sans-serif;
-	margin: 0px;
-	padding: 0px;
 	font-size: 0.9em;
 	letter-spacing: 1px;
+	margin: 0px;
+	padding: 0px;
 }
 
 #content {
-	width: 100%;
-	margin: 0px;
-	padding: 0px;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
 	background-color: #FAFAFA;
 	background-image: url('background_CC_BY-ND-NC-SA.png ');
-	background-size: cover;
 	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+	min-height: 100vh;
+	padding: 0px;
+	width: 100%;
 }
 
 #top-content {
@@ -30,8 +29,8 @@ body {
 }
 
 #header-img img {
-	border-radius: 50px; 
 	border-bottom: 1px solid #cfc1b4;
+	border-radius: 50px; 
 	box-shadow: #d7d6d6 0px 0px 5px;
 	object-position: left top;
 	width: 120px; 
@@ -43,8 +42,8 @@ h1 {
 
 #title {
 	color: #161614;
-	font-size: 3.5em;
 	font-family: 'Raleway', sans-serif;
+	font-size: 3.5em;
 	font-weight: normal;
 	text-align: center;
 }
@@ -55,11 +54,11 @@ h1 {
 }
 
 nav {
+	color: #EE3D38;
+	font-size: 1em;
 	margin: 3em auto 0.9em auto;
 	text-align: center;
-	color: #EE3D38;
 	text-transform: uppercase;
-	font-size: 1em;
 }
 
 nav p {
@@ -67,19 +66,19 @@ nav p {
 }
 
 nav a {
-	outline:0;
-	padding: 0em 0em 0.5em 0em;
 	margin: 0.2em 0.8em 0.2em 1.2em;
+	padding: 0em 0em 0.5em 0em;
+	outline:0;
 }
 
 nav a:link, nav a:visited {
-	border-bottom: 1px solid #ae4b33;
-	color: #ae4b33;
+	border-bottom: 1px solid #fc3c00;
+	color: #fc3c00;
 	text-decoration: none;
 }
 nav a:hover {
-	border-bottom: 3px solid #ae4b33;
-	color: #ae4b33;
+	border-bottom: 3px solid #fc3c00;
+	color: #fc3c00;
 	font-weight: bold;
 }
 
@@ -93,20 +92,20 @@ div#main {
 }
 
 #about-me {
+	font-size: 1.1em;
 	margin: auto;
 	max-width: 70%;
-	font-size: 1.1em;
 }
 
 footer {	
-	margin-bottom: 0px;
-	border-top: 1px solid #CA4747;
+	background-color: #fc3c00;
 	border-bottom: 1px solid #CA4747;
+	border-top: 1px solid #CA4747;
+	font-size: 0.9em;
+	margin-bottom: 0px;
 	padding-top: 0.4em;
 	padding-bottom: 0.4em;
-	background-color: #ae4b33;
 	text-transform: uppercase;
-	font-size: 0.9em;
 }
 
 #social {
@@ -115,9 +114,9 @@ footer {
 }
 
 p.social-refs { 
+	color: #FFFFFF;
 	display: inline-block;
 	margin: 0 0.7em 0 0.7em;
-	color: #FFFFFF;
 }
 
 p.social-refs a {
