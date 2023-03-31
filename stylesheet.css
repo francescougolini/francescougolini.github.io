@@ -72,13 +72,13 @@ nav a {
 }
 
 nav a:link, nav a:visited {
-	border-bottom: 1px solid #fc3c00;
-	color: #fc3c00;
+	border-bottom: 1px solid #CD5C5C;
+	color: #CD5C5C;
 	text-decoration: none;
 }
 nav a:hover {
-	border-bottom: 3px solid #fc3c00;
-	color: #fc3c00;
+	border-bottom: 3px solid #CD5C5C;
+	color: #CD5C5C;
 	font-weight: bold;
 }
 
@@ -98,9 +98,8 @@ div#main {
 }
 
 footer {	
-	background-color: #fc3c00;
-	border-bottom: 1px solid #CA4747;
-	border-top: 1px solid #CA4747;
+	background-color: #CD5C5C;
+	border-top: 1px solid #D9424D;
 	font-size: 0.9em;
 	margin-bottom: 0px;
 	padding-top: 0.4em;
